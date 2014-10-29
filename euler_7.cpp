@@ -1,3 +1,10 @@
+/*
+ * Problem 7: 10001st isPrime
+ * 
+ * By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that the 6th prime is 13.
+ * What is the 10 001st prime number?
+ */
+
 #include <iostream>
 #include <math.h>
 
@@ -15,9 +22,10 @@ bool isPrime(int num)
 
 int main(void)
 {
-	short count = 0;
+	const int max = 10001;
+	short count = 1;
 	int i = 1;
-	while(count < 10000)
+	while(count < max)
 	{
 		if(isPrime(++i))
 			count++;
