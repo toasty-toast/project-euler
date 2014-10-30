@@ -1,4 +1,6 @@
-# Even Fibonacci numbers
+"""
+Problem 2: Even Fibonacci numbers
+"""
 
 def fibonacci(maximum):
     first = 1
