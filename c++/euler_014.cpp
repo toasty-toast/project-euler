@@ -40,7 +40,6 @@ int main(void)
 		{
 			longest[0] = i;
 			longest[1] = numTerms;
-			cout << "New longest: " << longest[0] << " Num Terms: " << longest[1] << endl;
 		}
 	}
 	cout << longest[0] << endl;
