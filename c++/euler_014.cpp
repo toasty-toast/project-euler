@@ -20,9 +20,9 @@ int main(void)
 	const int max = 1000000;
 	int numTerms = 0;
 	int longest[2] = {0, 0};
-	for(int i = 837799; i < 837800; i++)
+	for(int i = 1; i < max; i++)
 	{
-		int num = i;
+		unsigned int num = i;
 		numTerms = 1;
 		while(num > 1)
 		{
