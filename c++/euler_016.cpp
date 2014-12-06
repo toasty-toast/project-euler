@@ -19,10 +19,7 @@ void doubleNum(bignum & num)
 	{
 		*p *= 2;
 		*p += carry;
-		if(*p >= 10)
-			carry = 1;
-		else
-			carry = 0;
+		carry = (*p >= 10) ? 1 : 0;
 		*p -= carry * 10;
 	}
 	if (carry != 0)
