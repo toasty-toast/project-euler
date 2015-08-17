@@ -1,3 +1,4 @@
+#!/usr/bin/env python2.7
 """
 Problem 5: Smallest multiple
 """

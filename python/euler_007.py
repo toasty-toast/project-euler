@@ -1,3 +1,4 @@
+#!/usr/bin/env python2.7
 """
 Problem 7: 10001st prime
 """
